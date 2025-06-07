@@ -1,0 +1,23 @@
+html{
+    font-family: 'ui-monospace', sans-serif;
+    font-size: 62.5%; 
+}
+
+header{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+hr{
+    width: 80vw;
+    color: lightsteelblue;
+    border-radius: 10px;
+}
+
+.add-tasks{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem;
+}
