@@ -3,21 +3,23 @@ html{
     font-size: 62.5%; 
 }
 
-header{
-    color: black;
-    text-align: center;
-    font-size: 2rem;
+body{
+    width: 20em;
+    max-width: 40em;
+    margin: 0 auto;
 }
 
-hr{
-    width: 80vw;
-    color: lightsteelblue;
-    border-radius: 10px;
+header{
+    text-align: center;
+}
+
+header > h1{
+    margin-bottom: 0;
 }
 
 .add-tasks{
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    margin: 2rem;
+    gap: 1em;
+    margin: 0;
 }
