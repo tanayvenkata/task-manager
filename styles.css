@@ -6,11 +6,12 @@ html{
 body{
     width: 20em;
     max-width: 40em;
-    margin: 0 auto;
+    margin: 3em auto auto;
 }
 
 header{
     text-align: center;
+    font-size: 1.3em; 
 }
 
 header > h1{
@@ -22,4 +23,51 @@ header > h1{
     justify-content: center;
     gap: 1em;
     margin: 0;
+}
+
+button{
+    background-color: silver;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: white;
+    color: silver;
+    outline: 1px solid silver;
+}
+
+button:active{
+    background-color: silver;
+    color: white;
+    outline: 1px solid silver;
+}
+
+.your-tasks{
+    padding: auto auto;
+    font-size: 1.3em; 
+}
+
+.checkbox-item label {
+    transition: text-decoration 0.5s ease, 
+                color 0.5s ease,
+                opacity 0.5s ease;
+}
+
+.checkbox-item input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    opacity: 0.5;
+    color: green;
+}
+
+.checkbox-item input[type="checkbox"]:hover + label{
+    opacity: 0.8;
+    color: gray;
+}
+
+.checkbox-item input[type="checkbox"] {
+  accent-color: limegreen;
+  opacity: 0.5;
 }

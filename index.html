@@ -1,47 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css"
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css"
+    </head>
+    <body>
 
-    <header>
-        <h1>Task Manager</h1>
+        <header>
+            <h1>Task Manager</h1>
+            <hr>
+        </header>
+
+        <section class="add-tasks">
+            <input type="text" id="input-task" placeholder="Add task...">
+            <button class="add" for="input-task">Add</button>
+        </section>
+
         <hr>
-    </header>
 
-    <section class="add-tasks">
-        <input type="text" id="input-task" placeholder="Add new task...">
-        <button for="input-task">Add</button>
-    </section>
+        <section class="your-tasks">
+            <div class="checkbox-item">
+                <input type="checkbox" id="task1">
+                <label for="task1">Buy Groceries</label>
+            </div>
 
-    <hr>
+            <div class="checkbox-item">
+                <input type="checkbox" id="task2">
+                <label for="task2">Learn CSS</label>
+            </div>
 
-    <section class="your-tasks">
-        <div class="checkbox-item">
-            <input type="checkbox" id="task1">
-            <label for="task1">Buy Groceries</label>
-        </div>
-
-        <div class="checkbox-item">
-            <input type="checkbox" id="task2">
-            <label for="task2">Learn CSS</label>
-        </div>
-
-        <div class="checkbox-item">
-            <input type="checkbox" id="task3">
-            <label for="task3">Read a Book</label>
-        </div>
-    </section>
-
-    
-
-
-
-
-
-</body>
+            <div class="checkbox-item">
+                <input type="checkbox" id="task3">
+                <label for="task3">Read a Book</label>
+            </div>
+        </section>
+    </body>
 </html>
